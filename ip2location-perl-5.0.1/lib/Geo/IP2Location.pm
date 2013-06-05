@@ -21,7 +21,7 @@ use strict;
 use vars qw(@ISA $VERSION @EXPORT);
 use bigint;
 
-$VERSION = '5.00';
+$VERSION = '5.01';
 
 require Exporter;
 @ISA = qw(Exporter);
@@ -100,7 +100,7 @@ my @WEATHERSTATIONNAME_POSITION =  (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 my @MCC_POSITION =                 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 16, 0, 16, 9, 16);
 my @MNC_POSITION =                 (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10,17, 0, 17, 10, 17);
 my @MOBILEBRAND_POSITION =         (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11,18, 0, 18, 11, 18);
-my @ELEVATON_POSITION =            (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 19, 0, 19);
+my @ELEVATION_POSITION =           (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 19, 0, 19);
 my @USAGETYPE_POSITION =           (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 20);
 
 my @IPV6_COUNTRY_POSITION =             (0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2);
